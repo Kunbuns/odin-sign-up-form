@@ -12,35 +12,42 @@
     </div>
     <div class="content">
         <div class="message">
-            <p>
-                This is not a real online service! This is a practice project by me! 
-                If you want to see more of what I can do, sign up! 
+            <h2>
+                This is not a real online service! This is a practice project by me!
+                <br/> 
+                If you want to see more of what I can do, sign up!
+                <br/> 
                 Not that it will do anything...
-            </p>
+                <br/><br/>
+                But sign up anyway! It will make me happy!
+            </h2>
         </div>
         <div class="form-container">
-            <form action="" method="post">
-                <div>  
-                    Please enter your info.
-                </div>
-                <p>
+            <h3>Please enter your info.</h3>
+            <form action="" method="get">
+                <div class="form-left">
                     <label for="first-name">FIRST NAME</label>
                     <input type="text" id="first-name" name="first-name">
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last-name">
                     <label for="email">EMAIL</label>
                     <input type="email" id="email" name="email">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-right">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name">
                     <label for="phone-number">PHONE NUMBER</label>
                     <input type="tel" id="phone-number" name="phone-number">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-password" name="confirm-password">
-                </p>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
             </form>
         </div>
         <div class="button-container">
-            Placeholder button
+            </br></br>
+            <button type="submit" class="submit-button">Create Account</button>
+            </br></br></br>
+            Already have an account? <a href="">Log in.</a>
         </div>
     </div>
 </body>
